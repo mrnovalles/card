@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#000;
+    font-family:"Simplicity", Georgia;
+    font-size: 34px;
+}
+a{
+ text-decoration:none;
+}
+.center{
+    width: 10em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.left{
+  float:left;
+}
+#date{
+  width:600px;
+}
+.section{
+    margin:0px;
+    height:4000px;
+    width:100%;
+    float:left;
+}
+.section span{
+    font-weight: bold;
+}
+.headline{
+    display:block;
+    margin-top:80px;
+    margin-bottom:15px;
+    font-size:150px;
+    font-family:"Aracne", Georgia;
+}
+.subheadline{
+    font-size:50px;
+    font-family:"Simplicity", Georgia;
+    margin-top:50px 0px 30px 0px;
+}
+.photo{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+.section h2{
+    font-size:40px;
+    font-family:"Simplicity", Georgia;
+    margin:15px 0px 15px 50px;
+}
+.section h3{
+    font-size:30px;
+    margin:50px 0px 15px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:550px;
+}
+.address{
+  margin-top:30px;
+}
+.small{
+    font-size:20px;
+}
+.white{
+    color:#000;
+    background:#fff url(../images/white_vert.jpg) repeat-x bottom left;
+}
+.reference ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
+.white a{
+  color:#3a9b95;
+}
+.reference ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+ul li a{
+    display:block;
+    color:#f0f0f0;
+}
+ul li a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.white ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.white ul li a{
+    display:block;
+    color:#222;
+}
+.white ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
+.nav{
+  font-size:32px;
+  float:right;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Simplicity";
+  src: url("../fonts/simplicity.ttf");
+}
+@font-face {
+  font-family: "Aracne";
+  src: url("../fonts/aracne.ttf");
+}
+.fancy { font-family: "Simplicity"}
